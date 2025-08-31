@@ -1,1 +1,34 @@
-/* write your override styles here */
+/* Tag 1: class */
+#wall .tag-1 {
+  display: none;
+}
+
+/* Tag 2: id */
+#wall #tag-2 {
+  display: none;
+}
+
+/* Tag 3: id + classes */
+#wall #tag-3.slick.wicked {
+  display: none;
+}
+
+/* Tag 4: id inside a .parent */
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/* Tag 5: id with class inside .parent */
+#wall .parent #tag-5.slick {
+  display: none;
+}
+
+/* Tag 6: deeply nested id inside .parent */
+#wall .parent div div #tag-6 {
+  display: none;
+}
+
+/* Tag 7: id with class inside .parent */
+#wall .parent div #tag-7.slick {
+  display: none;
+}
